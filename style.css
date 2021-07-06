@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* FontS
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Vollkorn', serif;
+*/
+body {
+  background-color: rgb(155, 149, 149);
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(images/videos/waterfall-620313_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 15vh;
+  width: 100%;
+}
+header,
+background-image {
+  height: 40vh;
+}
+
+/*font header stles*/
+h1 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 45px;
+  text-shadow: 2px 2px 5px black;
+  color: lime;
+  /*background-color: rgba(69, 75, 73, 0.9);*/
+  border-radius: 5px;
+}
+
+h2{
+  font-family: 'Mukta', sans-serif;
+  text-shadow: 1px 1px 3px lime;
+}
+h3{
+  font-size: 24px;
+  font-weight: bold;
+  color:lime;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*header nav*/
+.menu,
+ul,
+li,
+a {
+  display: flex;
+  align-items: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.menu,
+ul,
+li,
+a:hover {
+  color:lime;
+}
+
+/*upper-main section*/
+.upper-main{
+  display: flex;
+  background-color:#fff;
+  height: 10vh;
+  justify-content: space-around;
+  align-items:center;
+  box-shadow: 5px 5px 10px;
+}
+
+.emergency{
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px lime;
+}
+/* Font class */
+.font{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-family: 'Vollkorn', serif;
+  color:#fff;
+  background-image: url(images/light-bulb-3104355_1920.jpg);
+  background-size: cover;
+  }
+/* Heading for font class*/
+.font-about{
+  display: flex;
+  justify-content: center;
+}
+/* Font awesome icons*/
+.font-awesome{
+  display: flex;
+  justify-content: space-around ;
+  align-items:center;
+  height:40vh;
+  padding:10px;
+}
+
+.fa,.first, .fab,.fa1, .fas{
+  padding:15px;
+  margin:auto;
+  background-color: black;
+  border-radius: 20px;
+}
+
+/* background img opacity*/
+
+.lightbulb {
+  width:100%;
+  height:auto;
+ display: block;
+ position:relative; 
+}
+
+.lightbulb::after{
+  content:"";
+  background: url(images/videos/light-bulb-2631864_640.jpg);
+  background-size: cover;
+  border: 3px solid lime;
+  opacity: 0.5;
+  top:0;
+  left:0;
+  bottom: 0;
+  right:0;
+  position: absolute;
+  z-index: -1;
+}
+/*Cards background img */
+.lightbulb{
+  display: flex;
+  justify-content: space-around;
+}
+/* Cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:300px;
+  background-size: contain;
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+  color:#fff;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:300px;
+  background-size: contain;
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+  color:#fff;
+}
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:300px;
+  background-size: contain;
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+  color:#fff;
+}
+  /* Contact Now Buttons */
+p button{
+  margin:5px;
+  padding:4px;
+  border-radius: 5px;
+  color:lime;
+  background-color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p button:hover{
+  background-color: #fff;
+}
+/* FORMS*/
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/troy-bridges-SuzmwVqHJdo-unsplash.jpg);
+  background-size: cover;  
+  background-position: center center;
+  height: 50vh;
+  border-bottom: 2px solid #fff;
+}
+
+label{
+  color:lime;
+  font-size: 18px;
+  text-shadow: 1px 1px 3px black;
+  }
+
+input{
+  border:2px solid black;
+  border-radius: 5px;
+  width: 50%;
+}
+
+#email{
+  margin-left:31px;
+}
+
+ .submit {
+   margin:20px;
+   padding: 15px;
+   background-color: black;
+   color:lime;
+   font-size: 16px;
+  cursor:pointer;
+}
+
+.submit:hover{
+  background-color: #fff;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  background-color: white;
+  line-height: 1.5;
+  font-size: 20px;
+  color:#fff;
+  background-color: lime;
+  text-shadow: 1px 1px 3px black;
+}
+/* Media queries*/
+@media screen(min-width:320px) and (max-width:768px)
+
+
+
