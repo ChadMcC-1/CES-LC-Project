@@ -108,6 +108,8 @@ a:hover {
   align-items:center;
   height:40vh;
   padding:10px;
+  font-size: 30px;
+  color:lime;
 }
 
 .fa,.first, .fab,.fa1, .fas{
@@ -239,7 +241,63 @@ footer{
   text-shadow: 1px 1px 3px black;
 }
 /* Media queries*/
-@media screen(min-width:320px) and (max-width:768px)
+@media only screen and (max-width:1264px),
+        only screen and(max-width:1010px){
+        h1{
+          font-size: 35px;
+        }
+  .font-awesome{
+    display: block;
+  }
+  
+  
+}
+@media only screen and (max-width:900px){
+  .lightbulb{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  .form{
+    display: block;
+  }
+  footer{
+    display: block;
+  }
+}
+@media only screen and (max-width:768px){
+  h1{
+    font-size: 30px;
+  }
+  .menu,
+ul,
+li,
+a{
+  display:block;
+  margin:0;
+}
+.font-awesome{
+  display: block;
+  font-size: 20px;
+  
+}
+
+
+}
+@media only screen and (max-width:580px){
+  h2{
+    font-size: 18px;
+  }
+  .font{
+    background-size: cover;
+  }
+  .card{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+  }
+}
 
 
 
