@@ -36,17 +36,17 @@ h1 {
   border-radius: 5px;
 }
 
-h2{
+h2 {
   font-family: 'Mukta', sans-serif;
   text-shadow: 1px 1px 3px lime;
 }
-h3{
+h3 {
   font-size: 24px;
   font-weight: bold;
-  color:lime;
+  color: lime;
   font-family: 'Josefin Sans', sans-serif;
 }
-
+/* this is a comment*/
 /*header nav*/
 .menu,
 ul,
@@ -66,55 +66,59 @@ a {
 ul,
 li,
 a:hover {
-  color:lime;
+  color: lime;
 }
 
 /*upper-main section*/
-.upper-main{
+.upper-main {
   display: flex;
-  background-color:#fff;
+  background-color: #fff;
   height: 10vh;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   box-shadow: 5px 5px 10px;
 }
 
-.emergency{
+.emergency {
   font-weight: bold;
   font-size: 20px;
   text-shadow: 1px 1px 3px lime;
 }
 /* Font class */
-.font{
+.font {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   line-height: 1.5;
   font-family: 'Vollkorn', serif;
-  color:#fff;
+  color: #fff;
   background-image: url(images/light-bulb-3104355_1920.jpg);
   background-size: cover;
-  }
+}
 /* Heading for font class*/
-.font-about{
+.font-about {
   display: flex;
   justify-content: center;
 }
 /* Font awesome icons*/
-.font-awesome{
+.font-awesome {
   display: flex;
-  justify-content: space-evenly ;
-  align-items:center;
-  height:40vh;
-  padding:30px;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vh;
+  padding: 30px;
   font-size: 30px;
-  color:lime;
+  color: lime;
 }
 
-.fa,.first, .fab,.fa1, .fas{
-  padding:15px;
-  margin:auto;
+.fa,
+.first,
+.fab,
+.fa1,
+.fas {
+  padding: 15px;
+  margin: auto;
   background-color: black;
   border-radius: 20px;
 }
@@ -122,69 +126,69 @@ a:hover {
 /* background img opacity*/
 
 .lightbulb {
-  width:100%;
-  height:auto;
- display: block;
- position:relative; 
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
 }
 
-.lightbulb::after{
-  content:"";
+.lightbulb::after {
+  content: '';
   background: url(images/videos/light-bulb-2631864_640.jpg);
   background-size: cover;
   border: 3px solid lime;
   opacity: 0.5;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   bottom: 0;
-  right:0;
+  right: 0;
   position: absolute;
   z-index: -1;
 }
 /*Cards background img */
-.lightbulb{
+.lightbulb {
   display: flex;
   justify-content: space-around;
 }
 /* Cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width:300px;
+  width: 300px;
   background-size: contain;
   text-align: center;
   font-family: 'Vollkorn', serif;
-  color:#fff;
+  color: #fff;
 }
 
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width:300px;
+  width: 300px;
   background-size: contain;
   text-align: center;
   font-family: 'Vollkorn', serif;
-  color:#fff;
+  color: #fff;
 }
 
 .card3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width:300px;
+  width: 300px;
   background-size: contain;
   text-align: center;
   font-family: 'Vollkorn', serif;
-  color:#fff;
+  color: #fff;
 }
-  /* Contact Now Buttons */
-p button{
-  margin:5px;
-  padding:4px;
+/* Contact Now Buttons */
+p button {
+  margin: 5px;
+  padding: 4px;
   border-radius: 5px;
-  color:lime;
+  color: lime;
   background-color: black;
   font-size: 16px;
   cursor: pointer;
 }
 
-p button:hover{
+p button:hover {
   background-color: #fff;
 }
 /* FORMS*/
@@ -193,103 +197,96 @@ p button:hover{
   justify-content: center;
   align-items: center;
   background-image: url(images/troy-bridges-SuzmwVqHJdo-unsplash.jpg);
-  background-size: cover;  
+  background-size: cover;
   background-position: center center;
   height: 50vh;
   border-bottom: 2px solid #fff;
 }
 
-label{
-  color:lime;
+label {
+  color: lime;
   font-size: 18px;
   text-shadow: 1px 1px 3px black;
-  }
+}
 
-input{
-  border:2px solid black;
+input {
+  border: 2px solid black;
   border-radius: 5px;
   width: 50%;
 }
 
-#email{
-  margin-left:31px;
+#email {
+  margin-left: 31px;
 }
 
- .submit {
-   margin:20px;
-   padding: 15px;
-   background-color: black;
-   color:lime;
-   font-size: 16px;
-  cursor:pointer;
+.submit {
+  margin: 20px;
+  padding: 15px;
+  background-color: black;
+  color: lime;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-.submit:hover{
+.submit:hover {
   background-color: #fff;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+
   background-color: white;
   line-height: 1.5;
   font-size: 20px;
-  color:#fff;
+  color: #fff;
   background-color: lime;
   text-shadow: 1px 1px 3px black;
 }
 /* Media queries*/
-@media only screen and (max-width:1264px),
-        only screen and(max-width:1010px){
-        h1{
-          font-size: 35px;
-        }
-        .font-awesome{
-    display: block;
+@media only screen and (max-width: 1264px), only screen and(max-width:1010px) {
+  h1 {
+    font-size: 35px;
   }
-  }
-
-  @media only screen and (max-width:900px){
-  .lightbulb{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-  
-  }
-  .form{
-    display: block;
-  }
-  footer{
+  .font-awesome {
     display: block;
   }
 }
 
-@media only screen and (max-width:768px){
-  h1{
+@media only screen and (max-width: 900px) {
+  .lightbulb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form {
+    display: block;
+  }
+  footer {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
     font-size: 30px;
   }
   .menu,
-ul,
-li,
-a{
-  display:block;
-  margin:0;
-}
-.font-awesome{
-  display: block;
-  font-size: 20px;
-  
-}
+  ul,
+  li,
+  a {
+    display: block;
+    margin: 0;
+  }
+  .font-awesome {
+    display: block;
+    font-size: 20px;
+  }
 }
 
-@media only screen and (max-width:580px){
-  h2{
+@media only screen and (max-width: 580px) {
+  h2 {
     font-size: 18px;
   }
-  
 }
-
-
-
