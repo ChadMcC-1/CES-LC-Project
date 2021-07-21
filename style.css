@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
 }
-
 /* FontS
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Mukta', sans-serif;
@@ -20,7 +19,7 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  background-image: url(images/videos/waterfall-620313_1920.jpg);
+  background-image: url(images/waterfall-620313_1920.jpg);
   background-size: cover;
   background-position: center center;
   height: 15vh;
@@ -179,29 +178,7 @@ transition-duration: var (--menu-speed)
   text-decoration: none;
   transition: color 0.4s ease;
 }
-/*
-header nav
-.menu,
-ul,
-li,
-a {
-  display: flex;
-  align-items: flex-end;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 5px;
-  padding: 5px;
-  list-style: none;
-  text-decoration: none;
-  color: white;
-}
-.menu,
-ul,
-li,
-a:hover {
-  color: lime;
-}
-*/
+
 /*upper-main section*/
 .upper-main {
   display: flex;
@@ -266,7 +243,7 @@ a:hover {
 
 .lightbulb::after {
   content: '';
-  background: url(images/videos/light-bulb-2631864_640.jpg);
+  background: url(images/light-bulb-2631864_640.jpg);
   background-size: cover;
   border: 3px solid lime;
   opacity: 0.5;
@@ -377,6 +354,7 @@ footer {
   background-color: lime;
   text-shadow: 1px 1px 3px black;
 }
+
 /* Media queries*/
 @media only screen and (max-width: 1264px), only screen and(max-width:1010px) {
   h1 {
