@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="image" href="images/waterfall-620313_1920.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Mukta:wght@200;400&family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Creekside Electric</title>
 </head>
-    <header>
+  <body>
+   <header>
         <div>
             <h1>Creekside Elecetrical Services</h1>
         </div>
@@ -32,6 +33,7 @@
             </div>
         </div>
     </header>
+    
        <section class= "upper-main">
          <div class="heading">
             <h2>Creekside Elecetrical Services </h2>
@@ -78,34 +80,41 @@
  <section>
     <div class="form">
       <h2>Schedule Your Free<br>Estimate</h2>
-       <form action="" method="get">
+      
+      <form action="index.html" method="post">
+        <fieldset>
+          
          <label for="firstname">First name:</label>
          <input type="text" id="firstname" name="firstname" area-required="true"><br><br>
+
          <label for="lastname">Last name:</label>
          <input type="text" id="lastname" name="lastname" area-required="true"><br><br>
-         <label for="email">Email:</label>
-         <input type="text" id="email" name="email" area-required="true"><br><br>
-         <label for="overview">Comments:</label>
-         <textarea id="overview" name="overview" rows="4" cols="50">
-         </textarea><br>
-         <input onclick="SubmitForm(event)"class="submit"type="submit" value="Submit">
 
+         <label for="mail">Email:</label>
+         <input type="text" id="mail" name="email" area-required="true"><br><br>
+
+         <label for="overview">Comments:</label>
+         <textarea id="overview" name="overview" rows="4" cols="40">
+         </textarea><br>
+
+         <input onclick="SubmitForm(event)"class="submit"type="submit" value="Submit">
+        </fieldset>
        </form>
     </div>
  </section>
    <footer>
     <div class="address">
-      <p><bold>Creekside Elecetrical Services</bold><br>
+      Creekside Elecetrical Services<br>
        2391 Creekway road,<br>
        Cambellsburg, Ky <br>
        (502) 325-4587<br>
-       CES@gmail.com</p>
+       CES@gmail.com
     </div>
      <div>
-      <p> &copy 2021</p>
+      &copy 2021
      </div>
       <div class="social">  
-        <a href="#"> <i class="fab fa-linkedin">Linkdin</i></a>
+        <a href="#"><i class="fab fa-linkedin">Linkdin</i></a>
         <a href="#"><i class="fab fa-facebook-square">Facebook</i></a>
      </div>
   </footer>

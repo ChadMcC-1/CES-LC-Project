@@ -7,4 +7,4 @@ Creekside Electrical Services.
     Next I created some cards with images that also display and convay what the contractor specializes in.
     after the cards I created a form that allows customers to make or schedule an appointment or contact the contractor for any specific questions.
     Finally in the footer has conact address with another set of font awesome icons that will be able to reach the contractor on other sites including linkdin and Facebook.
-    I Performed a Web Accessibility Compliance review using lighthouse inside of chrome developer tools.
+    I Performed a Web Accessibility Compliance review using lighthouse inside of chrome developer tools. 
