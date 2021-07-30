@@ -9,4 +9,4 @@ Creekside Electrical Services.
     Finally in the footer has conact address with another set of font awesome icons that will be able to reach the contractor on other sites including linkdin and Facebook.
     I Performed a Web Accessibility Compliance review using lighthouse inside of chrome developer tools.
 
-![GitHub Logo](/images/lighthouse.png)
+![Image of lighthouse review](images/lighthouse.png.png)
