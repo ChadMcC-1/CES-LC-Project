@@ -18,37 +18,38 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   background-image: url(images/waterfall-620313_1920.jpg);
   background-size: cover;
   background-position: center center;
-  height: 15vh;
   width: 100%;
 }
 header,
 background-image {
-  height: 40vh;
+  height: 30vh;
 }
 
 /*font header styles*/
 h1 {
   font-family: 'Mukta', sans-serif;
-  font-size: 45px;
+  font-size: 16px;
   text-shadow: 2px 2px 5px black;
   color: lime;
-  /*background-color: rgba(69, 75, 73, 0.9);*/
   border-radius: 5px;
 }
 
 h2 {
   font-family: 'Mukta', sans-serif;
   text-shadow: 1px 1px 3px lime;
+  font-size: 14px;
 }
 h3 {
-  font-size: 24px;
+  
   font-weight: bold;
   color: lime;
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
 }
 /* menu styles */
 .menu-wrap {
@@ -59,12 +60,12 @@ h3 {
 }
 .menu-wrap .toggler {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   z-index: 2;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   opacity: 0;
 }
 .menu-wrap .hamburger {
@@ -82,7 +83,7 @@ h3 {
 }
 /*hamburger line*/
 .menu-wrap .hamburger > div {
-  position: relative;
+  position:relative;
   flex: none;
   width: 100%;
   height: 2px;
@@ -129,7 +130,7 @@ h3 {
 }
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: var (--menu-speed);
+  transition-duration: var(--menu-speed);
 }
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
@@ -151,8 +152,8 @@ h3 {
 .menu-wrap .menu > div {
   background: lime;
   border-radius: 50%;
-  width: 200vw;
-  height: 200vw;
+  width: 300vw;
+  height: 500vw;
   display: flex;
   flex: none;
   align-items: center;
@@ -182,16 +183,17 @@ h3 {
 /*upper-main section*/
 .upper-main {
   display: flex;
+  flex-direction: column;
   background-color: #fff;
   height: 10vh;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 10px;
 }
 
 .emergency {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 14pxpx;
   text-shadow: 1px 1px 3px lime;
 }
 /* Font class */
@@ -205,10 +207,12 @@ h3 {
   color: #fff;
   background-image: url(images/light-bulb-3104355_1920.jpg);
   background-size: cover;
+  
 }
 /* Heading for font class*/
 .font-about {
   display: flex;
+  flex-direction: column;
   text-align: center;
 }
 /* Font awesome icons*/
@@ -216,11 +220,12 @@ h3 {
 
 .font-awesome {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 40vh;
-  padding: 30px;
-  font-size: 30px;
+  height: 50vh;
+  padding: 10px;
+  font-size: 20px;
   color: lime;
 }
 
@@ -261,8 +266,9 @@ h3 {
 /*Cards background img */
 .lightbulb {
   display: flex;
-  
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* Cards */
 .card {
@@ -272,6 +278,7 @@ h3 {
   text-align: center;
   font-family: 'Vollkorn', serif;
   color: #fff;
+  display:none;
 }
 .card:hover{
   transform: scale(1.2);
@@ -284,6 +291,7 @@ h3 {
   text-align: center;
   font-family: 'Vollkorn', serif;
   color: #fff;
+  display:none;
 }
 .card2:hover{
   transform: scale(1.2);
@@ -296,6 +304,7 @@ h3 {
   text-align: center;
   font-family: 'Vollkorn', serif;
   color: #fff;
+  display:none;
 }
 .card3:hover{
   transform: scale(1.2);
@@ -318,6 +327,7 @@ p button:hover {
 /* FORMS*/
 .form {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(images/troy-bridges-SuzmwVqHJdo-unsplash.jpg);
@@ -332,6 +342,7 @@ label {
   color: lime;
   font-size: 18px;
   text-shadow: 1px 1px 3px black;
+
 }
 
 input {
@@ -339,8 +350,11 @@ input {
   border-radius: 5px;
   width: 50%;
 }
+.textarea{
+  display:none;
+}
 #overview{
- font-size:12px;
+ display:none;
 }
 #mail {
   margin-left: 31px;
@@ -362,6 +376,7 @@ input {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: white;
@@ -374,6 +389,75 @@ footer {
 
 /* Media queries*/
 
+@media  only screen and (min-width:300px){
+  h1{
+   font-size: 24px;
+ }
+  h2{
+    font-size:20px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .card {
+    display:revert;
+     }
+  .card2 {
+    display: revert;
+  }
+  .card3{
+    display: revert;
+  }
+  .textarea{
+    display: revert;
+  }
+  #overview{
+    display: revert;
+  }
+}
+
+@media  only screen and (min-width:500px){
+  h1{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  h2{
+    font-size: 24px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  .emergency{
+    font-size: 24px;
+  }
+  .font-awesome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 30px;
+  }  
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .social{
+    display:flex;
+    flex-direction: column;
+  }
+
+}
+@media  only screen and (min-width:905px){
+  .lightbulb {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+  }
+}
+
+/*
 @media only screen and (min-width: 200px)  {
   header {
     display: flex;
@@ -428,5 +512,5 @@ footer {
   }
   }
   
-  
+  */
 
