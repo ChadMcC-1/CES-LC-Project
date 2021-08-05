@@ -1,10 +1,10 @@
 function SubmitForm(event){
     event.preventDefault();
-    let email=document.getElementById("email")
-    if(email.value){
-        alert("alert need email");
+    let email= document.getElementById("email")
+    if(email){
+        alert("wrong try again");
 
     } else{
-        alert("wrong try again")
+        alert("alert need email")
     }  
 }
